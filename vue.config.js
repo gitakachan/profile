@@ -14,12 +14,13 @@ module.exports = {
   },
   //vue-cli-plugin-style-resources-loader
   pluginOptions: {
-    'style-resources-loader': {
-      preProcessor: 'scss',
-      patterns: ['/Users/chenic/Desktop/projects/profile/profile/src/assets/scss/_variables.scss'],
+    "style-resources-loader": {
+      preProcessor: "scss",
+      patterns: [
+        "/Users/chenic/Desktop/projects/profile/profile/src/assets/scss/_variables.scss",
+      ],
     },
   },
 
-  publicPath:
-    process.env.NODE_ENV === "production" ? "/profile/" : "/",
+  publicPath: process.env.NODE_ENV === "production" ? "/profile/" : "/",
 };
