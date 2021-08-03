@@ -1,0 +1,11 @@
+@import "./_reset";
+@import "./_grid";
+@import "./_layout";
+@import "./_variables";
+@import "./bootstrap/bootstrap.scss";
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
