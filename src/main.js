@@ -2,6 +2,9 @@ import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
 
+//bootstrap js
+import BS from "./common/bootstrap.bundle.min";
+
 Vue.config.productionTip = false;
 
 new Vue({

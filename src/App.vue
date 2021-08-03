@@ -1,16 +1,19 @@
 <template>
   <div id="app">
+    <main-nav-bar></main-nav-bar>
     <h1>hello</h1>
-
-    <a href="#">google</a>
     <router-view></router-view>
   </div>
 </template>
 
 <script>
+//components
+import MainNavBar from "./components/common/navBar/MainNavBar.vue";
 export default {
   name: "App",
-  components: {},
+  components: {
+    MainNavBar,
+  },
 };
 </script>
 
