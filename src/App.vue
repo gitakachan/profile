@@ -1,6 +1,9 @@
 <template>
   <div id="app">
     <h1>hello</h1>
+
+    <a href="#">google</a>
+    <router-view></router-view>
   </div>
 </template>
 
