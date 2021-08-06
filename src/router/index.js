@@ -6,7 +6,7 @@ Vue.use(VueRouter);
 const Home = () => import("../views/home/Home.vue");
 const AboutMe = () => import("../views/aboutMe/AboutMe.vue");
 const Experiences = () => import("../views/experiences/Experiences.vue");
-const Portfolios = () => import("../views/portfolios/Portfolios.vue");
+const Portfolio = () => import("../views/portfolio/Portfolio.vue");
 
 const routes = [
   {
@@ -29,9 +29,9 @@ const routes = [
     component: Experiences,
   },
   {
-    path: "/portfolios",
-    name: "portfolios",
-    component: Portfolios,
+    path: "/portfolio",
+    name: "portfolio",
+    component: Portfolio,
   },
 ];
 

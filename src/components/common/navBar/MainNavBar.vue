@@ -35,25 +35,25 @@
               active-class="active"
               aria-current="page"
               to="/home"
-              >首頁</router-link
+              >Home</router-link
             >
             <router-link
               class="nav-link px-md-4"
               active-class="active"
               to="/about-me"
-              >關於我</router-link
+              >About</router-link
             >
             <router-link
               class="nav-link px-md-4"
               active-class="active"
               to="/experiences"
-              >經歷</router-link
+              >Experiences</router-link
             >
             <router-link
               class="nav-link px-md-4"
               active-class="active"
-              to="/portfolios"
-              >作品</router-link
+              to="/portfolio"
+              >Portfolio</router-link
             >
           </div>
         </div>
@@ -77,6 +77,7 @@ export default {
 
       &.active {
         color: $orange;
+        font-weight: 700;
       }
     }
   }
