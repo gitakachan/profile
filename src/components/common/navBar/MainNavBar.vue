@@ -1,8 +1,8 @@
 <template>
-  <div class="main-nav-bar">
-    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+  <div class="main-nav-bar px-md-5 bg-secondary">
+    <nav class="navbar navbar-expand-md navbar-light bg-secondary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">CheniC.</a>
+        <router-link class="navbar-brand fs-3" to="/home">CheniC.</router-link>
         <button
           class="navbar-toggler"
           type="button"
@@ -29,11 +29,32 @@
           </svg>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">About Me</a>
-            <a class="nav-link" href="#">Experiences</a>
-            <a class="nav-link" href="#">Portfolios</a>
+          <div class="navbar-nav flex-grow-1 justify-content-md-end pe-lg-5">
+            <router-link
+              class="nav-link px-md-4"
+              active-class="active"
+              aria-current="page"
+              to="/home"
+              >首頁</router-link
+            >
+            <router-link
+              class="nav-link px-md-4"
+              active-class="active"
+              to="/about-me"
+              >關於我</router-link
+            >
+            <router-link
+              class="nav-link px-md-4"
+              active-class="active"
+              to="/experiences"
+              >經歷</router-link
+            >
+            <router-link
+              class="nav-link px-md-4"
+              active-class="active"
+              to="/portfolios"
+              >作品</router-link
+            >
           </div>
         </div>
       </div>
@@ -48,4 +69,16 @@ export default {
   },
 };
 </script>
-<style lang="scss"></style>
+<style lang="scss">
+.main-nav-bar {
+  .navbar-nav {
+    a.nav-link {
+      font-size: 1.3rem;
+
+      &.active {
+        color: $orange;
+      }
+    }
+  }
+}
+</style>
