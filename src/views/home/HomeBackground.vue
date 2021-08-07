@@ -1,30 +1,28 @@
 <template>
-  <div
-    class="bg h-100"
-    :style="{ backgroundImage: 'url(' + imgs[current].url + ')' }"
-  ></div>
+  <div class="bg" :style="imgs[current]"></div>
 </template>
 <script>
 export default {
   name: "HomeBackground",
-  created() {
+  mounted() {
     this.carousel();
   },
   data() {
     return {
       current: 0,
       imgs: [
+        //left 5% / 15% 60% repeat-x
         {
-          url:
-            "https://images.unsplash.com/photo-1628257228884-90f11c4e78a8?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60",
+          backgroundPosition: "80%",
+          backgroundImage: `url(${require("@/assets/img/home/leaf.jpg")})`,
         },
         {
-          url:
-            "https://images.unsplash.com/photo-1628199003947-a43ab7be601c?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0M3x8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60",
+          backgroundPosition: "10% 10%",
+          backgroundImage: `url(${require("@/assets/img/home/beach.jpg")})`,
         },
         {
-          url:
-            "https://images.unsplash.com/photo-1628191010210-a59de33e5941?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60",
+          backgroundPosition: "left 20%",
+          backgroundImage: `url(${require("@/assets/img/home/tree.jpg")})`,
         },
       ],
     };
@@ -36,7 +34,7 @@ export default {
         if (this.current == 3) {
           this.current = 0;
         }
-      }, 3000);
+      }, 6000);
     },
   },
 };
@@ -51,8 +49,11 @@ export default {
   bottom: 0;
   z-index: -1;
   background-size: cover;
-  background-position: 40%;
+  // background-position: 40% 10%;
   background-repeat: no-repeat;
-  transition: background-image 1s ease;
+  transition: background-image 5s ease;
+}
+
+@keyframes opacity {
 }
 </style>
