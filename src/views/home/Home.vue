@@ -1,12 +1,17 @@
 <template>
-  <div class="home d-flex align-items-center">
+  <div
+    class="home d-flex align-items-center flex-column justify-content-around "
+  >
     <home-background></home-background>
     <home-content></home-content>
+    <home-buttons></home-buttons>
   </div>
 </template>
 <script>
 import HomeBackground from "./HomeBackground.vue";
+import HomeButtons from "./HomeButtons.vue";
 import HomeContent from "./HomeContent.vue";
+
 export default {
   name: "",
   data() {
@@ -15,6 +20,7 @@ export default {
   components: {
     HomeBackground,
     HomeContent,
+    HomeButtons,
   },
 };
 </script>

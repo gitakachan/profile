@@ -1,6 +1,6 @@
 <template>
-  <div class="container-fluid text-info">
-    <div class="row justify-content-center">
+  <div class="container-fluid text-info pt-5 ">
+    <div class="row justify-content-center pt-5 ">
       <div class="col-12 col-md-10  col-lg-6">
         <p class="fs-4">Hey there,</p>
         <h1>I’m <span class="name">Cheni Chen</span></h1>

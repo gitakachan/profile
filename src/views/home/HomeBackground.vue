@@ -5,11 +5,11 @@
 export default {
   name: "HomeBackground",
   mounted() {
-    this.carousel();
+    // this.carousel();
   },
   data() {
     return {
-      current: 0,
+      current: 1,
       imgs: [
         //left 5% / 15% 60% repeat-x
         {
@@ -17,7 +17,7 @@ export default {
           backgroundImage: `url(${require("@/assets/img/home/leaf.jpg")})`,
         },
         {
-          backgroundPosition: "10% 10%",
+          backgroundPosition: "15% 5%",
           backgroundImage: `url(${require("@/assets/img/home/beach.jpg")})`,
         },
         {
