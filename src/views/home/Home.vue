@@ -20,7 +20,6 @@ export default {
 </script>
 <style lang="scss">
 .home {
-  height: 100%;
   min-height: 100vh;
   background: linear-gradient(
     130deg,

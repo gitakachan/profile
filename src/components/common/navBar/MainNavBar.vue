@@ -1,6 +1,6 @@
 <template>
-  <div class="main-nav-bar px-md-5 bg-secondary sticky-top">
-    <nav class="navbar navbar-expand-md navbar-light bg-secondary">
+  <div class="main-nav-bar px-md-5 bg-secondary fixed-top">
+    <nav class="navbar navbar-expand-md navbar-light">
       <div class="container-fluid">
         <router-link class="navbar-brand fs-3" to="/home">CheniC.</router-link>
         <button
