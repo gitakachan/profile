@@ -5,10 +5,7 @@
     </div>
 
     <div class="profile-pic text-center pb-4 pb-lg-5">
-      <img
-        class="rounded-circle"
-        src="https://picsum.photos/250/250/?random=1"
-      />
+      <img class="rounded-circle" src="../../assets/img/aboutMe/proflie.jpg" />
     </div>
 
     <div class="name text-center">
@@ -137,5 +134,12 @@ export default {
 <style lang="scss">
 .about-me {
   margin-top: 58px;
+
+  .profile-pic {
+    img {
+      width: 200px;
+      height: 200px;
+    }
+  }
 }
 </style>
