@@ -5,12 +5,14 @@
     <home-background></home-background>
     <home-content></home-content>
     <home-buttons></home-buttons>
+    <main-footer></main-footer>
   </div>
 </template>
 <script>
 import HomeBackground from "./HomeBackground.vue";
 import HomeButtons from "./HomeButtons.vue";
 import HomeContent from "./HomeContent.vue";
+import MainFooter from "../../components/common/footer/MainFooter.vue";
 
 export default {
   name: "",
@@ -21,6 +23,7 @@ export default {
     HomeBackground,
     HomeContent,
     HomeButtons,
+    MainFooter,
   },
 };
 </script>
