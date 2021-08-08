@@ -29,4 +29,8 @@ export default {
   },
 };
 </script>
-<style lang="scss"></style>
+<style lang="scss">
+.btn {
+  width: 120px;
+}
+</style>
