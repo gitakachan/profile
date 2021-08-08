@@ -11,7 +11,7 @@
           btns[1]
         }}</router-link>
       </div>
-      <div class="col col-lg-3 text-center pb-3">
+      <div class="col col-lg-3 text-center pb-5 pb-md-3">
         <router-link class="btn btn-outline-info" to="/about-me">{{
           btns[2]
         }}</router-link>
