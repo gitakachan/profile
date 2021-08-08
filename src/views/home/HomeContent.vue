@@ -4,8 +4,8 @@
       <div class="col-12 col-md-10  col-lg-6">
         <p class="fs-4">Hey there,</p>
         <h1>I’m <span class="name">Cheni Chen</span></h1>
-        <p class="fs-4 d-md-inline">/ photography lover</p>
-        <p class="fs-4 d-md-inline">/ travel passionist</p>
+        <p class="fs-4 d-md-inline mb-0">/ photography lover</p>
+        <p class="fs-4 d-md-inline mb-0">/ travel passionist</p>
       </div>
     </div>
     <div class="row justify-content-center">
