@@ -1,6 +1,8 @@
 <template>
-  <div class="container-fulid">
-    <h1>portfolios</h1>
+  <div class="experiences container-fulid text-info  min-vh-100 text-info">
+    <div class="title text-center pt-5 pb-3">
+      <h1>Portfolio</h1>
+    </div>
   </div>
 </template>
 <script>
@@ -11,4 +13,8 @@ export default {
   },
 };
 </script>
-<style lang="scss"></style>
+<style lang="scss">
+.experiences {
+  margin-top: 58px;
+}
+</style>
